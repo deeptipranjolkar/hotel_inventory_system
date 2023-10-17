@@ -1,0 +1,23 @@
+/* RegistrationForm.css */
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-row {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: grey;
+  }
+  

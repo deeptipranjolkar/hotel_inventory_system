@@ -1,11 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
+import NavigationBar from './Components/Navbar/Navbar';
+import RegistrationForm from './Components/RegistrationForm/RegistrationForm';
 
 
 function App() {
   return (
     <>
-    <h1 style={{textAlign:"center"}}>Hotel Inventory Management System</h1>
+    <NavigationBar/>
+    <RegistrationForm/>
    
     </>
   );
